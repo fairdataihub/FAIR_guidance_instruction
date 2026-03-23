@@ -1,0 +1,63 @@
+# Outputs: keep only Markdown files
+outputs/**
+
+# Re-allow markdown files inside outputs
+!outputs/**/*.md
+
+# Keep folder structure
+!outputs/**/
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+
+env/
+venv/
+.venv/
+
+# OS & Editor Files
+.DS_Store
+.vscode/
+.idea/
+
+# LangChain / Vector Store
+faiss_index/
+*.faiss
+*.pkl
+
+# Data & Archives
+archive/
+main_archive/
+*.pdf
+
+# Secrets & Configs
+.env
+.env.*
+*.yaml
+*.yml
+*.json
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Build & Distribution
+dist/
+build/
+document_portal.egg-info/
+
+# Ignore generated images
+*.png
+
+# Ignore text and data files
+*.csv
+
+# Ignore Word files
+*.doc
+*.docx
