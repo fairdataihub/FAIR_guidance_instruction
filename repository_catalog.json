@@ -207,6 +207,91 @@
         "record_page": "https://www.re3data.org/repository/r3d100010924",
         "api_endpoint": "https://www.re3data.org/api/v1/repository/r3d100010924"
       },
+      "domains": [
+        {
+          "value": "1 Humanities and Social Sciences",
+          "scheme": "DFG"
+        },
+        {
+          "value": "110 Psychology",
+          "scheme": "DFG"
+        },
+        {
+          "value": "12 Social and Behavioural Sciences",
+          "scheme": "DFG"
+        },
+        {
+          "value": "2 Life Sciences",
+          "scheme": "DFG"
+        },
+        {
+          "value": "201 Basic Biological and Medical Research",
+          "scheme": "DFG"
+        },
+        {
+          "value": "20101 Biochemistry",
+          "scheme": "DFG"
+        },
+        {
+          "value": "206 Neurosciences",
+          "scheme": "DFG"
+        },
+        {
+          "value": "20606 Cognitive Neuroscience and Neuroimaging",
+          "scheme": "DFG"
+        },
+        {
+          "value": "21 Biology",
+          "scheme": "DFG"
+        },
+        {
+          "value": "22 Medicine",
+          "scheme": "DFG"
+        }
+      ],
+      "data_types": [
+        "Archived data",
+        "Images",
+        "Plain text",
+        "Raw data"
+      ],
+      "access_profile": {
+        "database_access": [
+          "open"
+        ],
+        "data_access": [
+          "embargoed",
+          "open",
+          "restricted"
+        ],
+        "data_upload": [
+          "restricted"
+        ],
+        "upload_restrictions": [
+          "registration"
+        ]
+      },
+      "supported_funders": [
+        "NSF"
+      ],
+      "human_subjects_support": {
+        "subject_evidence": [
+          "1 Humanities and Social Sciences",
+          "110 Psychology",
+          "12 Social and Behavioural Sciences",
+          "2 Life Sciences",
+          "201 Basic Biological and Medical Research",
+          "20101 Biochemistry",
+          "206 Neurosciences",
+          "20606 Cognitive Neuroscience and Neuroimaging",
+          "21 Biology",
+          "22 Medicine"
+        ],
+        "description_evidence": "The OpenNeuro project (formerly known as the OpenfMRI project) was established in 2010 to provide a resource for researchers interested in making their neuroimaging data openly available to the research community. It is managed by Russ Poldrack and Chris Gorgolewski of the Center for Reproducible Neuroscience at Stanford University. The project has been developed with funding from the National Science Foundation, National Institute of Drug Abuse, and the Laura and John Arnold Foundation.",
+        "policy_evidence": [
+          "OpenNeuro FAQ"
+        ]
+      },
       "raw_source_record": {
         "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->\n<r3d:re3data xmlns:r3d=\"http://www.re3data.org/schema/2-2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd\">\n    <r3d:repository>\n        <r3d:re3data.orgIdentifier>r3d100010924</r3d:re3data.orgIdentifier>\n        <r3d:repositoryName language=\"eng\">OpenNeuro</r3d:repositoryName>\n                    <r3d:additionalName language=\"eng\">formerly: OpenfMRI</r3d:additionalName>\n                <r3d:repositoryURL>https://openneuro.org/</r3d:repositoryURL>\n                    <r3d:repositoryIdentifier>10.25504/FAIRsharing.s1r9bw</r3d:repositoryIdentifier>\n                    <r3d:repositoryIdentifier>SCR_005031</r3d:repositoryIdentifier>\n                    <r3d:repositoryIdentifier>nlx_144048</r3d:repositoryIdentifier>\n                <r3d:description language=\"eng\">The OpenNeuro project (formerly known as the OpenfMRI project) was established in 2010 to provide a resource for researchers interested in making their neuroimaging data openly available to the research community. It is managed by Russ Poldrack and Chris Gorgolewski of the Center for Reproducible Neuroscience at Stanford University. The project has been developed with funding from the National Science Foundation, National Institute of Drug Abuse, and the Laura and John Arnold Foundation.</r3d:description>\n                    <r3d:repositoryContact>support@openneuro.freshdesk.com</r3d:repositoryContact>\n                            <r3d:type>disciplinary</r3d:type>\n                <r3d:size updated=\"\">1.590 public datasets</r3d:size>\n                    <r3d:startDate>2010</r3d:startDate>\n                                    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>\n                            <r3d:subject subjectScheme=\"DFG\">1 Humanities and Social Sciences</r3d:subject>\n                    <r3d:subject subjectScheme=\"DFG\">110 Psychology</r3d:subject>\n                    <r3d:subject subjectScheme=\"DFG\">12 Social and Behavioural Sciences</r3d:subject>\n                    <r3d:subject subjectScheme=\"DFG\">2 Life Sciences</r3d:subject>\n                    <r3d:subject subjectScheme=\"DFG\">201 Basic Biological and Medical Research</r3d:subject>\n                    <r3d:subject subjectScheme=\"DFG\">20101 Biochemistry</r3d:subject>\n                    <r3d:subject subjectScheme=\"DFG\">206 Neurosciences</r3d:subject>\n                    <r3d:subject subjectScheme=\"DFG\">20606 Cognitive Neuroscience and Neuroimaging</r3d:subject>\n                    <r3d:subject subjectScheme=\"DFG\">21 Biology</r3d:subject>\n                    <r3d:subject subjectScheme=\"DFG\">22 Medicine</r3d:subject>\n                <r3d:missionStatementURL>https://docs.openneuro.org/faq</r3d:missionStatementURL>\n                    <r3d:contentType contentTypeScheme=\"parse\">Archived data</r3d:contentType>\n                    <r3d:contentType contentTypeScheme=\"parse\">Images</r3d:contentType>\n                    <r3d:contentType contentTypeScheme=\"parse\">Plain text</r3d:contentType>\n                    <r3d:contentType contentTypeScheme=\"parse\">Raw data</r3d:contentType>\n                            <r3d:providerType>dataProvider</r3d:providerType>\n                            <r3d:keyword>behavioral scientists</r3d:keyword>\n                    <r3d:keyword>biology</r3d:keyword>\n                    <r3d:keyword>brain</r3d:keyword>\n                    <r3d:keyword>brain chemistry</r3d:keyword>\n                    <r3d:keyword>cells</r3d:keyword>\n                    <r3d:keyword>magnetic resonance imaging</r3d:keyword>\n                    <r3d:keyword>molecular biology</r3d:keyword>\n                    <r3d:keyword>stimulants</r3d:keyword>\n                            <r3d:institution>\n                <r3d:institutionName language=\"eng\">National Science Foundation</r3d:institutionName>\n                                    <r3d:institutionAdditionalName language=\"eng\">NSF</r3d:institutionAdditionalName>\n                                <r3d:institutionCountry>USA</r3d:institutionCountry>\n                                    <r3d:responsibilityType>funding</r3d:responsibilityType>\n                                <r3d:institutionType>non-profit</r3d:institutionType>\n                <r3d:institutionURL>https://www.nsf.gov/</r3d:institutionURL>\n                                    <r3d:institutionIdentifier>ROR:021nxhr62</r3d:institutionIdentifier>\n                                    <r3d:institutionIdentifier>RRID:SCR_012938</r3d:institutionIdentifier>\n                                                            </r3d:institution>\n                    <r3d:institution>\n                <r3d:institutionName language=\"eng\">Stanford University, Poldrack Lab</r3d:institutionName>\n                                <r3d:institutionCountry>USA</r3d:institutionCountry>\n                                    <r3d:responsibilityType>general</r3d:responsibilityType>\n                                <r3d:institutionType>non-profit</r3d:institutionType>\n                <r3d:institutionURL>https://www.poldracklab.org/</r3d:institutionURL>\n                                                            </r3d:institution>\n                    <r3d:institution>\n                <r3d:institutionName language=\"eng\">University of Texas, Texas Advanced Computing Center</r3d:institutionName>\n                                    <r3d:institutionAdditionalName language=\"eng\">TACC</r3d:institutionAdditionalName>\n                                <r3d:institutionCountry>USA</r3d:institutionCountry>\n                                    <r3d:responsibilityType>technical</r3d:responsibilityType>\n                                <r3d:institutionType>non-profit</r3d:institutionType>\n                <r3d:institutionURL>https://tacc.utexas.edu/</r3d:institutionURL>\n                                    <r3d:institutionIdentifier>ROR:00xg4bh43</r3d:institutionIdentifier>\n                                    <r3d:institutionIdentifier>RRID:SCR_012530</r3d:institutionIdentifier>\n                                                            </r3d:institution>\n                            <r3d:policy>\n                <r3d:policyName>OpenNeuro FAQ</r3d:policyName>\n                <r3d:policyURL>https://docs.openneuro.org/faq</r3d:policyURL>\n            </r3d:policy>\n                <r3d:databaseAccess>\n            <r3d:databaseAccessType>open</r3d:databaseAccessType>\n                    </r3d:databaseAccess>\n                            <r3d:dataAccess>\n                <r3d:dataAccessType>embargoed</r3d:dataAccessType>\n                            </r3d:dataAccess>\n                    <r3d:dataAccess>\n                <r3d:dataAccessType>open</r3d:dataAccessType>\n                            </r3d:dataAccess>\n                    <r3d:dataAccess>\n                <r3d:dataAccessType>restricted</r3d:dataAccessType>\n                            </r3d:dataAccess>\n                            <r3d:dataLicense>\n                <r3d:dataLicenseName>CC</r3d:dataLicenseName>\n                <r3d:dataLicenseURL>https://creativecommons.org/licenses/by/3.0/de/</r3d:dataLicenseURL>\n            </r3d:dataLicense>\n                    <r3d:dataLicense>\n                <r3d:dataLicenseName>CC0</r3d:dataLicenseName>\n                <r3d:dataLicenseURL>https://creativecommons.org/publicdomain/zero/1.0/</r3d:dataLicenseURL>\n            </r3d:dataLicense>\n                    <r3d:dataLicense>\n                <r3d:dataLicenseName>Copyrights</r3d:dataLicenseName>\n                <r3d:dataLicenseURL>https://docs.openneuro.org/faq</r3d:dataLicenseURL>\n            </r3d:dataLicense>\n                    <r3d:dataLicense>\n                <r3d:dataLicenseName>ODC</r3d:dataLicenseName>\n                <r3d:dataLicenseURL>https://www.opendatacommons.org/licenses/pddl/1.0/</r3d:dataLicenseURL>\n            </r3d:dataLicense>\n                            <r3d:dataUpload>\n                <r3d:dataUploadType>restricted</r3d:dataUploadType>\n                                    <r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>\n                            </r3d:dataUpload>\n                                    <r3d:software>\n                <r3d:softwareName>other</r3d:softwareName>\n            </r3d:software>\n                <r3d:versioning>yes</r3d:versioning>\n                    <r3d:api apiType=\"REST\">https://openneuro.org/crn/graphql</r3d:api>\n                            <r3d:pidSystem>DOI</r3d:pidSystem>\n                <r3d:citationGuidelineURL>https://docs.openneuro.org/faq</r3d:citationGuidelineURL>\n                    <r3d:aidSystem>ORCID</r3d:aidSystem>\n                <r3d:enhancedPublication>no</r3d:enhancedPublication>\n        <r3d:qualityManagement></r3d:qualityManagement>\n                            <r3d:metadataStandard>\n                <r3d:metadataStandardName metadataStandardScheme=\"DCC\">ABCD - Access to Biological Collection Data</r3d:metadataStandardName>\n                <r3d:metadataStandardURL>http://www.dcc.ac.uk/resources/metadata-standards/abcd-access-biological-collection-data</r3d:metadataStandardURL>\n            </r3d:metadataStandard>\n                        <r3d:remarks>is covered by Elsevier. OpenNeuro is covered by Clarivate Data Citation Index. OpenNeuro represents the next step beyond the OpenfMRI data sharing platform. The name change is meant to reflect the fact that they are no longer focused exclusively on fMRI — the new platform will accept any imaging dataset that follows the BIDS standard. http://reproducibility.stanford.edu/announcing-the-openneuro-platform-open-and-reproducible-science-as-a-service/</r3d:remarks>\n        <r3d:entryDate>2014-08-26</r3d:entryDate>\n        <r3d:lastUpdate>2026-01-19</r3d:lastUpdate>\n    </r3d:repository>\n</r3d:re3data>"
       },
