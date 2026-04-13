@@ -1,5 +1,5 @@
 # RDA DMP Common Standard for machine-actionable Data Management Plans
-
+```text
 dmp
 ├── alternate_identifier [0..n]
 │   ├── identifier [1]
@@ -148,3 +148,5 @@ dmp
 │   ├── scheme_type [0..1]
 │   └── resource_type [0..1]
 └── title [1]
+
+```
