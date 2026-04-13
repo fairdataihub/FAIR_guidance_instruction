@@ -7,15 +7,15 @@
     },
     "title": "Effects of Placental Dysfunction on Brain Growth in Congenital Heart Disease",
     "description": "The proposed project will involve human participants and will acquire demographic, clinical, fetal/placental magnetic resonance imaging (MRI), genomic, and placental tissue data from 225 pregnant women with a fetal diagnosis of CHD and 115 pregnant women with a healthy fetus. This study involves eight co-investigators from three sites, Washington University in St. Louis (WUSTL), Boston Children's Hospital (BCH), and The Hospital for Sick Children (SickKids).",
-    "created": "",
-    "modified": " 01-24-2024",
-    "language": "en",
+    "created": null,
+    "modified": "2024-01-24",
+    "language": null,
     "ethical_issues_exist": "yes",
-    "ethical_issues_description": "The project involves human participants. Informed consent documents will include language describing data management and sharing plans. Personal identifying information will be removed. Data will be deidentified by removing all 18 HIPAA identifiers prior to sharing. The study will have a Certificate of Confidentiality from NIH.",
-    "ethical_issues_report": "",
+    "ethical_issues_description": "The project involves human participants. Informed consent documents will include language describing plans for data management and sharing of data, describing the motivation for sharing, and explaining that personal identifying information will be removed. Privacy and confidentiality protections consistent with applicable federal, Tribal, state, and local laws, regulations, and policies will be followed. Data will be deidentified by removing all 18 HIPAA identifiers prior to sharing, and the study will have a Certificate of Confidentiality from NIH.",
+    "ethical_issues_report": null,
     "contact": {
       "name": "Cynthia Ortinau",
-      "mbox": "",
+      "mbox": null,
       "contact_id": {
         "identifier": "0000-0003-0851-0796",
         "type": "orcid"
@@ -24,33 +24,68 @@
         {
           "name": "Washington University in St. Louis",
           "affiliation_id": {
-            "identifier": "",
-            "type": ""
+            "identifier": null,
+            "type": null
           }
         }
       ]
     },
-    "contributor": [],
-    "cost": [],
+    "contributor": [
+      {
+        "name": "Cynthia Ortinau",
+        "mbox": null,
+        "role": [
+          "LeadPI",
+          "ProjectAdministration",
+          "DataManagement"
+        ],
+        "contributor_id": {
+          "identifier": "0000-0003-0851-0796",
+          "type": "orcid"
+        },
+        "affiliation": [
+          {
+            "name": "Washington University in St. Louis",
+            "affiliation_id": {
+              "identifier": null,
+              "type": null
+            }
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "title": null,
+        "description": null,
+        "value": null,
+        "currency_code": null
+      }
+    ],
     "project": [
       {
         "title": "Effects of Placental Dysfunction on Brain Growth in Congenital Heart Disease",
-        "description": "Study across Washington University in St. Louis, Boston Children's Hospital, and The Hospital for Sick Children.",
-        "start": "09-01-2023",
-        "end": " 08-31-2028",
-        "project_id": [],
+        "description": "Study across Washington University in St. Louis, Boston Children's Hospital, and The Hospital for Sick Children involving demographic, clinical, MRI, genomic, and placental tissue data from pregnant women with fetal CHD and healthy fetuses.",
+        "start": "2023-09-01",
+        "end": "2028-08-31",
+        "project_id": [
+          {
+            "identifier": null,
+            "type": null
+          }
+        ],
         "funding": [
           {
             "funder_name": "National Institutes of Health",
             "funder_id": {
-              "identifier": "",
-              "type": ""
+              "identifier": null,
+              "type": null
             },
             "grant_id": {
               "identifier": "PA-20-185",
               "type": "funding_opportunity_number"
             },
-            "funding_status": ""
+            "funding_status": null
           }
         ]
       }
@@ -58,21 +93,21 @@
     "dataset": [
       {
         "dataset_id": {
-          "identifier": "",
-          "type": ""
+          "identifier": null,
+          "type": null
         },
         "title": "Demographic and clinical data",
-        "description": "Demographic data include maternal age, race, ethnicity, fetal sex, and socioeconomics (zip code, insurance type). Clinical data include cardiac diagnosis, details of pregnancy and fetal complications, and details of infant postnatal course. Demographic and clinical data will be captured by each site into the REDCap secure electronic data capture system (EDC) and will generate approximately 5 GB of data.",
+        "description": "Demographic data include maternal age, race, ethnicity, fetal sex, and socioeconomics such as zip code and insurance type. Clinical data include cardiac diagnosis, details of pregnancy and fetal complications, and details of infant postnatal course. Demographic and clinical data will be captured by each site into the REDCap secure electronic data capture system.",
         "type": "demographic; clinical",
-        "issued": "",
-        "language": "en",
+        "issued": null,
+        "language": null,
         "keyword": [
           "demographic data",
           "clinical data",
           "REDCap",
           "human participants"
         ],
-        "is_reused": false,
+        "is_reused": null,
         "personal_data": "yes",
         "sensitive_data": "yes",
         "preservation_statement": "Demographic and clinical data entered into the REDCap EDC system will be cleaned, de-identified, preserved and shared.",
@@ -83,68 +118,118 @@
           {
             "title": "Controlled access and de-identification",
             "description": "Each user will be given role specific access to the EDC system, and access will be controlled by granting users individual usernames and passwords. Appropriate measures such as assigning a study identification number and removal of all dates will be used for data de-identification and sharing."
-          },
-          {
-            "title": "Human subjects protection",
-            "description": "All research participants will be consented for broad data sharing. Data will be deidentified by removing all 18 HIPAA identifiers prior to sharing, and the study will have a Certificate of Confidentiality from NIH."
           }
         ],
-        "rights": "",
-        "alternate_identifier": [],
-        "creator": [],
+        "rights": null,
+        "alternate_identifier": [
+          {
+            "identifier": null,
+            "type": null
+          }
+        ],
+        "creator": [
+          {
+            "name": null,
+            "mbox": null,
+            "creator_id": {
+              "identifier": null,
+              "type": null
+            },
+            "affiliation": [
+              {
+                "name": null,
+                "affiliation_id": {
+                  "identifier": null,
+                  "type": null
+                }
+              }
+            ]
+          }
+        ],
         "distribution": [
           {
             "title": "De-identified demographic and clinical data distribution",
             "description": "All de-identified demographic and clinical data will be shared via the institutional repository Digital Commons@Becker. Data will be made publicly available with controlled access under Data Use Agreement to ensure the safety of participants' data.",
-            "access_url": "",
-            "available_until": "",
+            "access_url": null,
+            "available_until": null,
             "byte_size": 5368709120,
             "data_access": "controlled",
-            "download_url": "",
+            "download_url": null,
             "format": [],
-            "issued": "",
-            "license": [],
+            "issued": null,
+            "license": [
+              {
+                "license_ref": null,
+                "start_date": null
+              }
+            ],
             "host": {
               "title": "Digital Commons@Becker",
-              "url": "",
-              "description": "Digital Commons@Becker provides metadata, persistent identifiers (DOIs), and long-term access. It is administered and maintained by the Bernard Becker Medical Library, hosted by bepress, and backed up by S3 cloud storage. The repository can host multiple file types, conducts regular audits for fixity and authenticity, and plans exist in instances of repository host change.",
-              "availability": "",
-              "backup_frequency": "",
+              "url": null,
+              "description": "Digital Commons@Becker provides metadata, persistent identifiers (DOIs), and long-term access. It is administered and maintained by the Bernard Becker Medical Library, is hosted by bepress, is backed up by S3 cloud storage, conducts regular audits for fixity and authenticity, and has plans in instances of repository host change.",
+              "availability": null,
+              "backup_frequency": null,
               "backup_type": "S3 cloud storage backup",
-              "certified_with": "",
-              "geo_location": "",
+              "certified_with": null,
+              "geo_location": null,
               "host_id": {
-                "identifier": "",
-                "type": ""
+                "identifier": null,
+                "type": null
               },
               "pid_system": [
                 "doi"
               ],
               "storage_type": "repository",
-              "support_versioning": ""
+              "support_versioning": null
             }
           }
         ],
         "metadata": [
           {
             "description": "A data dictionary will be generated and deposited into a repository along with all shared datasets. A README file will also be generated and deposited into the repository and will include instructions for data analysis.",
-            "language": "en",
-            "metadata_standard_id": []
+            "language": null,
+            "metadata_standard_id": [
+              {
+                "identifier": null,
+                "type": null
+              }
+            ]
           }
         ],
-        "related_identifier": [],
-        "technical_resource": []
+        "related_identifier": [
+          {
+            "identifier": null,
+            "type": null,
+            "relation_type": null,
+            "metadata_scheme": null,
+            "scheme_uri": null,
+            "scheme_type": null,
+            "resource_type": null
+          }
+        ],
+        "technical_resource": [
+          {
+            "name": null,
+            "description": null,
+            "technical_resource_id": [
+              {
+                "identifier": null,
+                "type": null
+              }
+            ]
+          }
+        ]
       },
       {
         "dataset_id": {
-          "identifier": "",
-          "type": ""
+          "identifier": null,
+          "type": null
         },
         "title": "Fetal and placental MRI data",
         "description": "MRI data include regional fetal brain MRI measures, placental oxygenation measures, and MR oximetry. MRI data will be captured by each site into the Central Neuroimaging Data Archive at WUSTL.",
         "type": "MRI imaging",
-        "issued": "",
-        "language": "en",
+        "issued": null,
+        "language": null,
         "keyword": [
           "fetal brain MRI",
           "placental MRI",
@@ -152,7 +237,7 @@
           "OpenNeuro",
           "BIDS"
         ],
-        "is_reused": false,
+        "is_reused": null,
         "personal_data": "yes",
         "sensitive_data": "yes",
         "preservation_statement": "MRI data will be preserved and shared via OpenNeuro after images are defaced. Raw data will not be shared due to the potential risk of identifying the fetus.",
@@ -163,26 +248,45 @@
           {
             "title": "Defacing and raw data restriction",
             "description": "MRI data will be shared via OpenNeuro after images are defaced. Raw data will not be shared due to the potential risk of identifying the fetus."
-          },
-          {
-            "title": "Embargo and authentication",
-            "description": "After an optional 36-month embargo period, datasets are published into the public domain. Prior to being made public, access to a dataset is controlled through strict authentication policies and an isolated storage backend."
           }
         ],
-        "rights": "",
-        "alternate_identifier": [],
-        "creator": [],
+        "rights": null,
+        "alternate_identifier": [
+          {
+            "identifier": null,
+            "type": null
+          }
+        ],
+        "creator": [
+          {
+            "name": null,
+            "mbox": null,
+            "creator_id": {
+              "identifier": null,
+              "type": null
+            },
+            "affiliation": [
+              {
+                "name": null,
+                "affiliation_id": {
+                  "identifier": null,
+                  "type": null
+                }
+              }
+            ]
+          }
+        ],
         "distribution": [
           {
             "title": "MRI data distribution via OpenNeuro",
-            "description": "MRI data will be deposited into OpenNeuro. Metadata describing each dataset snapshot is indexed for searching, and copies of ingested content are provided via persistent DOIs minted for each version of a dataset.",
-            "access_url": "",
-            "available_until": "",
-            "byte_size": "",
-            "data_access": "controlled_then_open",
-            "download_url": "",
+            "description": "MRI data will be deposited into OpenNeuro. Digital content ingested to OpenNeuro is replicated multiple times and stored in geo-diverse locations on different media types. Changes to content can be tracked and snapshots can be made that uniquely identify specific points in the lifetime of each dataset. Metadata describing each dataset snapshot is indexed for searching, and persistent DOIs are minted for each version.",
+            "access_url": null,
+            "available_until": null,
+            "byte_size": null,
+            "data_access": "controlled",
+            "download_url": null,
             "format": [],
-            "issued": "",
+            "issued": null,
             "license": [
               {
                 "license_ref": "CC0",
@@ -191,16 +295,16 @@
             ],
             "host": {
               "title": "OpenNeuro",
-              "url": "",
-              "description": "Digital content ingested to OpenNeuro is replicated multiple times and stored in geo-diverse locations on different media types. The repository is built using widely-adopted and actively maintained open-source data management tools. These tools permit changes to content to be tracked and snapshots to be made that uniquely identify specific points in the lifetime of each dataset.",
-              "availability": "",
-              "backup_frequency": "",
+              "url": null,
+              "description": "OpenNeuro replicates data multiple times in geo-diverse locations on different media types, audits datasets systematically, and uses widely adopted and actively maintained open-source data management tools.",
+              "availability": null,
+              "backup_frequency": null,
               "backup_type": "replicated multiple times in geo-diverse locations on different media types",
-              "certified_with": "",
-              "geo_location": "",
+              "certified_with": null,
+              "geo_location": null,
               "host_id": {
-                "identifier": "",
-                "type": ""
+                "identifier": null,
+                "type": null
               },
               "pid_system": [
                 "doi"
@@ -212,8 +316,8 @@
         ],
         "metadata": [
           {
-            "description": "MRI data will be standardized using the Brain Imaging Data Structure (BIDS) recommendations. Metadata describing each dataset snapshot is indexed for searching.",
-            "language": "",
+            "description": "MRI data will be standardized using the Brain Imaging Data Structure (BIDS) recommendations.",
+            "language": null,
             "metadata_standard_id": [
               {
                 "identifier": "Brain Imaging Data Structure (BIDS)",
@@ -222,11 +326,21 @@
             ]
           }
         ],
-        "related_identifier": [],
+        "related_identifier": [
+          {
+            "identifier": null,
+            "type": null,
+            "relation_type": null,
+            "metadata_scheme": null,
+            "scheme_uri": null,
+            "scheme_type": null,
+            "resource_type": null
+          }
+        ],
         "technical_resource": [
           {
             "name": "Fetal brain analysis software",
-            "description": "The software and algorithms used for fetal brain analysis are distributed as open source software and shared through a GitHub repository (bchimagine).",
+            "description": "The software and algorithms used for fetal brain analysis are distributed as open source software and are shared through a GitHub repository (bchimagine).",
             "technical_resource_id": [
               {
                 "identifier": "bchimagine",
@@ -236,21 +350,26 @@
           },
           {
             "name": "Placental MRI methods",
-            "description": "Placental MRI methods are readily available and can be provided by contacting the research team.",
-            "technical_resource_id": []
+            "description": "Placental MRI methods are also readily available and can be provided by contacting the research team.",
+            "technical_resource_id": [
+              {
+                "identifier": null,
+                "type": null
+              }
+            ]
           }
         ]
       },
       {
         "dataset_id": {
-          "identifier": "",
-          "type": ""
+          "identifier": null,
+          "type": null
         },
         "title": "Genomic data",
-        "description": "Genomic data will be individual level data. Analysis of genomic DNA will link genotype to phenotypic information obtained as part of this study. Genomic data will include trio whole exome sequencing (WES) for a total of 20 TB data.",
+        "description": "Genomic data will be individual level data. Analysis of genomic DNA will link genotype to phenotypic information obtained as part of this study. Genomic data will include trio whole exome sequencing (WES).",
         "type": "genomic",
-        "issued": "",
-        "language": "en",
+        "issued": null,
+        "language": null,
         "keyword": [
           "genomic data",
           "whole exome sequencing",
@@ -259,49 +378,77 @@
           "CRAM",
           "VCF"
         ],
-        "is_reused": false,
+        "is_reused": null,
         "personal_data": "yes",
         "sensitive_data": "yes",
-        "preservation_statement": "The study will be registered in dbGaP at the time of data cleaning and quality control measure initiation. Genomic data will be shared and deposited into dbGaP according to GDS policy, which requires that genomic data must be submitted within 3 months following data generation and released within 6 months of data submission to the repository or at acceptance of the publication, whichever is first.",
+        "preservation_statement": "The study will be registered in dbGaP at the time of data cleaning and quality control measure initiation. Genomic data will be shared and deposited into dbGaP according to GDS policy, which requires submission within 3 months following data generation and release within 6 months of submission or at acceptance of publication, whichever is first.",
         "data_quality_assurance": [
           "The study will be registered in dbGaP at the time of data cleaning and quality control measure initiation."
         ],
         "security_and_privacy": [
           {
             "title": "Controlled access for individual-level data",
-            "description": "For dbGaP, summary level data is open but credentialed user must apply for access to individual level data."
+            "description": "For dbGaP, summary level data is open but credentialed users must apply for access to individual-level data."
           }
         ],
-        "rights": "",
-        "alternate_identifier": [],
-        "creator": [],
+        "rights": null,
+        "alternate_identifier": [
+          {
+            "identifier": null,
+            "type": null
+          }
+        ],
+        "creator": [
+          {
+            "name": null,
+            "mbox": null,
+            "creator_id": {
+              "identifier": null,
+              "type": null
+            },
+            "affiliation": [
+              {
+                "name": null,
+                "affiliation_id": {
+                  "identifier": null,
+                  "type": null
+                }
+              }
+            ]
+          }
+        ],
         "distribution": [
           {
             "title": "Genomic data distribution via dbGaP",
-            "description": "WES and phenotype data will be uploaded using the dbGaP submission guide and templates.",
-            "access_url": "",
-            "available_until": "",
+            "description": "WES and phenotype data will be uploaded using the dbGaP submission guide and templates. Datasets in dbGaP will be findable through the study accession number, a unique, stable, and versioned identifier.",
+            "access_url": null,
+            "available_until": null,
             "byte_size": 21990232555520,
             "data_access": "controlled",
-            "download_url": "",
+            "download_url": null,
             "format": [
               "CRAM",
               "VCF"
             ],
-            "issued": "",
-            "license": [],
+            "issued": null,
+            "license": [
+              {
+                "license_ref": null,
+                "start_date": null
+              }
+            ],
             "host": {
               "title": "dbGaP",
-              "url": "",
-              "description": "Datasets in dbGaP will be findable through the study accession number which is a unique, stable, and versioned identifier that can be used in publications.",
-              "availability": "",
-              "backup_frequency": "",
-              "backup_type": "",
-              "certified_with": "",
-              "geo_location": "",
+              "url": null,
+              "description": "The study will be registered in dbGaP at the time of data cleaning and quality control measure initiation. Genomic data will be shared and deposited into dbGaP according to GDS policy.",
+              "availability": null,
+              "backup_frequency": null,
+              "backup_type": null,
+              "certified_with": null,
+              "geo_location": null,
               "host_id": {
-                "identifier": "",
-                "type": ""
+                "identifier": null,
+                "type": null
               },
               "pid_system": [
                 "study accession number"
@@ -313,30 +460,56 @@
         ],
         "metadata": [
           {
-            "description": "Genomic data will be in CRAM format with alignment to the latest reference genome and variant files in VCF format. Submission uses the dbGaP submission guide and templates.",
-            "language": "",
-            "metadata_standard_id": []
+            "description": "Genomic data will be in CRAM format with alignment to the latest reference genome and variant files in VCF format. Common Data Elements will be applied as relevant using the NICHD data standards.",
+            "language": null,
+            "metadata_standard_id": [
+              {
+                "identifier": "NICHD data standards",
+                "type": "standard"
+              }
+            ]
           }
         ],
-        "related_identifier": [],
-        "technical_resource": []
+        "related_identifier": [
+          {
+            "identifier": null,
+            "type": null,
+            "relation_type": null,
+            "metadata_scheme": null,
+            "scheme_uri": null,
+            "scheme_type": null,
+            "resource_type": null
+          }
+        ],
+        "technical_resource": [
+          {
+            "name": null,
+            "description": null,
+            "technical_resource_id": [
+              {
+                "identifier": null,
+                "type": null
+              }
+            ]
+          }
+        ]
       },
       {
         "dataset_id": {
-          "identifier": "",
-          "type": ""
+          "identifier": null,
+          "type": null
         },
         "title": "Placental tissue data",
         "description": "Placental tissue data include qualitative clinical assessment and confocal laser scanning microscopy. Placental tissue will be maintained in the Pathology Department at WUSTL, with additional slides for confocal laser scanning microscopy maintained in a secure laboratory environment managed by one of the co-investigators.",
         "type": "placental tissue; microscopy",
-        "issued": "",
-        "language": "",
+        "issued": null,
+        "language": null,
         "keyword": [
           "placental tissue",
           "confocal laser scanning microscopy",
           "REDCap"
         ],
-        "is_reused": false,
+        "is_reused": null,
         "personal_data": "yes",
         "sensitive_data": "yes",
         "preservation_statement": "Placental data entered into the REDCap EDC system will be cleaned, de-identified, preserved and shared.",
@@ -347,68 +520,121 @@
             "description": "Additional slides for confocal laser scanning microscopy will be maintained in a secure laboratory environment managed by one of the co-investigators."
           }
         ],
-        "rights": "",
-        "alternate_identifier": [],
-        "creator": [],
+        "rights": null,
+        "alternate_identifier": [
+          {
+            "identifier": null,
+            "type": null
+          }
+        ],
+        "creator": [
+          {
+            "name": null,
+            "mbox": null,
+            "creator_id": {
+              "identifier": null,
+              "type": null
+            },
+            "affiliation": [
+              {
+                "name": null,
+                "affiliation_id": {
+                  "identifier": null,
+                  "type": null
+                }
+              }
+            ]
+          }
+        ],
         "distribution": [
           {
             "title": "Placental tissue data distribution",
             "description": "All de-identified placental tissue data will be shared via the institutional repository Digital Commons@Becker.",
-            "access_url": "",
-            "available_until": "",
-            "byte_size": "",
+            "access_url": null,
+            "available_until": null,
+            "byte_size": null,
             "data_access": "controlled",
-            "download_url": "",
+            "download_url": null,
             "format": [],
-            "issued": "",
-            "license": [],
+            "issued": null,
+            "license": [
+              {
+                "license_ref": null,
+                "start_date": null
+              }
+            ],
             "host": {
               "title": "Digital Commons@Becker",
-              "url": "",
-              "description": "Institutional repository for presenting and preserving scholarly work created at Washington University School of Medicine in St. Louis.",
-              "availability": "",
-              "backup_frequency": "",
+              "url": null,
+              "description": "Institutional repository for presenting and preserving the scholarly work created at Washington University School of Medicine in St. Louis.",
+              "availability": null,
+              "backup_frequency": null,
               "backup_type": "S3 cloud storage backup",
-              "certified_with": "",
-              "geo_location": "",
+              "certified_with": null,
+              "geo_location": null,
               "host_id": {
-                "identifier": "",
-                "type": ""
+                "identifier": null,
+                "type": null
               },
               "pid_system": [
                 "doi"
               ],
               "storage_type": "repository",
-              "support_versioning": ""
+              "support_versioning": null
             }
           }
         ],
         "metadata": [
           {
-            "description": "A data dictionary and README file will be generated and deposited into a repository along with all shared datasets.",
-            "language": "",
-            "metadata_standard_id": []
+            "description": "A data dictionary will be generated and deposited into a repository along with all shared datasets. A README file will also be generated and deposited into the repository and will include instructions for data analysis.",
+            "language": null,
+            "metadata_standard_id": [
+              {
+                "identifier": null,
+                "type": null
+              }
+            ]
           }
         ],
-        "related_identifier": [],
+        "related_identifier": [
+          {
+            "identifier": null,
+            "type": null,
+            "relation_type": null,
+            "metadata_scheme": null,
+            "scheme_uri": null,
+            "scheme_type": null,
+            "resource_type": null
+          }
+        ],
         "technical_resource": [
           {
-            "name": "Placental MRI methods",
-            "description": "Placental MRI methods are readily available and can be provided by contacting the research team.",
-            "technical_resource_id": []
+            "name": null,
+            "description": null,
+            "technical_resource_id": [
+              {
+                "identifier": null,
+                "type": null
+              }
+            ]
           }
         ]
       }
     ],
-    "alternate_identifier": [],
+    "alternate_identifier": [
+      {
+        "identifier": null,
+        "type": null
+      }
+    ],
     "related_identifier": [
       {
         "identifier": "https://grants.nih.gov/grants/guide/pa-files/PA-20-185.html",
         "type": "url",
         "relation_type": "IsReferencedBy",
-        "metadata_scheme": "",
-        "scheme_uri": "",
-        "scheme_type": "",
+        "metadata_scheme": null,
+        "scheme_uri": null,
+        "scheme_type": null,
         "resource_type": "Grant"
       }
     ]
