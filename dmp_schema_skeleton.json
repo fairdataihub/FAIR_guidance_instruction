@@ -153,9 +153,12 @@
               }
             ],
             "host": {
+              "host_id": {
+                "identifier": "",
+                "type": ""
+              },
               "title": "",
               "url": "",
-              "host_id_type": "",
               "description": "",
               "availability": "",
               "backup_frequency": "",
@@ -178,17 +181,6 @@
                 "type": ""
               }
             ]
-          }
-        ],
-        "related_identifier": [
-          {
-            "identifier": "",
-            "type": "",
-            "relation_type": "",
-            "metadata_scheme": "",
-            "scheme_uri": "",
-            "scheme_type": "",
-            "resource_type": ""
           }
         ],
         "technical_resource": [
