@@ -140,12 +140,12 @@
             "title": "",
             "description": "",
             "access_url": "",
-            "download_url": "",
-            "format": [],
+            "available_until": "",
             "byte_size": 0,
             "data_access": "",
+            "download_url": "",
+            "format": [],
             "issued": "",
-            "available_until": "",
             "license": [
               {
                 "license_ref": "",
@@ -153,10 +153,6 @@
               }
             ],
             "host": {
-              "host_id": {
-                "identifier": "",
-                "type": ""
-              },
               "title": "",
               "url": "",
               "description": "",
@@ -165,9 +161,13 @@
               "backup_type": "",
               "certified_with": "",
               "geo_location": "",
+              "host_id": {
+                "identifier": "",
+                "type": ""
+              },
               "pid_system": [],
               "storage_type": "",
-              "supports_versioning": ""
+              "support_versioning": ""
             }
           }
         ],
@@ -206,15 +206,6 @@
             ]
           }
         ]
-      }
-    ],
-    "Affiliation": [
-      {
-        "name": "",
-        "affiliation_id": {
-          "identifier": "",
-          "type": ""
-        }
       }
     ],
     "alternate_identifier": [
