@@ -1,4 +1,5 @@
 {
+  "$schema": "./JSON-schema/1.2/maDMP-schema-1.2.json",
   "dmp": {
     "dmp_id": {
       "identifier": "",
@@ -15,12 +16,10 @@
     "contact": {
       "name": "",
       "mbox": "",
-      "contact_id": [
-        {
-          "identifier": "",
-          "type": ""
-        }
-      ],
+      "contact_id": {
+        "identifier": "",
+        "type": ""
+      },
       "affiliation": [
         {
           "name": "",
@@ -36,12 +35,10 @@
         "name": "",
         "mbox": "",
         "role": [],
-        "contributor_id": [
-          {
-            "identifier": "",
-            "type": ""
-          }
-        ],
+        "contributor_id": {
+          "identifier": "",
+          "type": ""
+        },
         "affiliation": [
           {
             "name": "",
@@ -75,6 +72,7 @@
         ],
         "funding": [
           {
+            "funder_name": "",
             "funder_id": {
               "identifier": "",
               "type": ""
@@ -90,6 +88,10 @@
     ],
     "dataset": [
       {
+        "dataset_id": {
+          "identifier": "",
+          "type": ""
+        },
         "title": "",
         "description": "",
         "type": "",
@@ -108,10 +110,6 @@
           }
         ],
         "rights": "",
-        "dataset_id": {
-          "identifier": "",
-          "type": ""
-        },
         "alternate_identifier": [
           {
             "identifier": "",
@@ -122,12 +120,10 @@
           {
             "name": "",
             "mbox": "",
-            "creator_id": [
-              {
-                "identifier": "",
-                "type": ""
-              }
-            ],
+            "creator_id": {
+              "identifier": "",
+              "type": ""
+            },
             "affiliation": [
               {
                 "name": "",
@@ -152,6 +148,7 @@
             "available_until": "",
             "license": [
               {
+                "license_name": "",
                 "license_ref": "",
                 "start_date": ""
               }
@@ -159,6 +156,7 @@
             "host": {
               "title": "",
               "url": "",
+              "host_id_type": "",
               "description": "",
               "availability": "",
               "backup_frequency": "",
@@ -167,13 +165,7 @@
               "geo_location": "",
               "pid_system": [],
               "storage_type": "",
-              "support_versioning": "",
-              "host_id": [
-                {
-                  "identifier": "",
-                  "type": ""
-                }
-              ]
+              "supports_versioning": ""
             }
           }
         ],
