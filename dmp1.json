@@ -8,8 +8,8 @@
     "title": "Effects of Placental Dysfunction on Brain Growth in Congenital Heart Disease",
     "description": "The proposed project will involve human participants and will acquire demographic, clinical, fetal/placental magnetic resonance imaging (MRI), genomic, and placental tissue data from 225 pregnant women with a fetal diagnosis of CHD and 115 pregnant women with a healthy fetus. This study involves eight co-investigators from three sites, Washington University in St. Louis (WUSTL), Boston Children's Hospital (BCH), and The Hospital for Sick Children (SickKids).",
     "created": "",
-    "modified": "2024-01-24",
-    "language": "",
+    "modified": " 01-24-2024",
+    "language": "en",
     "ethical_issues_exist": "yes",
     "ethical_issues_description": "The project involves human participants. Informed consent documents will include language describing data management and sharing plans. Personal identifying information will be removed. Data will be deidentified by removing all 18 HIPAA identifiers prior to sharing. The study will have a Certificate of Confidentiality from NIH.",
     "ethical_issues_report": "",
@@ -36,8 +36,8 @@
       {
         "title": "Effects of Placental Dysfunction on Brain Growth in Congenital Heart Disease",
         "description": "Study across Washington University in St. Louis, Boston Children's Hospital, and The Hospital for Sick Children.",
-        "start": "2023-09-01",
-        "end": "2028-08-31",
+        "start": "09-01-2023",
+        "end": " 08-31-2028",
         "project_id": [],
         "funding": [
           {
@@ -65,7 +65,7 @@
         "description": "Demographic data include maternal age, race, ethnicity, fetal sex, and socioeconomics (zip code, insurance type). Clinical data include cardiac diagnosis, details of pregnancy and fetal complications, and details of infant postnatal course. Demographic and clinical data will be captured by each site into the REDCap secure electronic data capture system (EDC) and will generate approximately 5 GB of data.",
         "type": "demographic; clinical",
         "issued": "",
-        "language": "",
+        "language": "en",
         "keyword": [
           "demographic data",
           "clinical data",
@@ -128,7 +128,7 @@
         "metadata": [
           {
             "description": "A data dictionary will be generated and deposited into a repository along with all shared datasets. A README file will also be generated and deposited into the repository and will include instructions for data analysis.",
-            "language": "",
+            "language": "en",
             "metadata_standard_id": []
           }
         ],
@@ -144,7 +144,7 @@
         "description": "MRI data include regional fetal brain MRI measures, placental oxygenation measures, and MR oximetry. MRI data will be captured by each site into the Central Neuroimaging Data Archive at WUSTL.",
         "type": "MRI imaging",
         "issued": "",
-        "language": "",
+        "language": "en",
         "keyword": [
           "fetal brain MRI",
           "placental MRI",
@@ -250,7 +250,7 @@
         "description": "Genomic data will be individual level data. Analysis of genomic DNA will link genotype to phenotypic information obtained as part of this study. Genomic data will include trio whole exome sequencing (WES) for a total of 20 TB data.",
         "type": "genomic",
         "issued": "",
-        "language": "",
+        "language": "en",
         "keyword": [
           "genomic data",
           "whole exome sequencing",
