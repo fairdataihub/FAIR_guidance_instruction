@@ -8,7 +8,7 @@
     "title": "Effects of Placental Dysfunction on Brain Growth in Congenital Heart Disease",
     "description": "The proposed project will involve human participants and will acquire demographic, clinical, fetal/placental magnetic resonance imaging (MRI), genomic, and placental tissue data from 225 pregnant women with a fetal diagnosis of CHD and 115 pregnant women with a healthy fetus. This study involves eight co-investigators from three sites, Washington University in St. Louis (WUSTL), Boston Children's Hospital (BCH), and The Hospital for Sick Children (SickKids).",
     "created": null,
-    "modified": "2024-01-24",
+    "modified": "01-24-2024",
     "language": null,
     "ethical_issues_exist": "yes",
     "ethical_issues_description": "The project involves human participants. Informed consent documents will include language describing plans for data management and sharing of data, describing the motivation for sharing, and explaining that personal identifying information will be removed. Privacy and confidentiality protections consistent with applicable federal, Tribal, state, and local laws, regulations, and policies will be followed. Data will be deidentified by removing all 18 HIPAA identifiers prior to sharing, and the study will have a Certificate of Confidentiality from NIH.",
@@ -66,8 +66,8 @@
       {
         "title": "Effects of Placental Dysfunction on Brain Growth in Congenital Heart Disease",
         "description": "Study across Washington University in St. Louis, Boston Children's Hospital, and The Hospital for Sick Children involving demographic, clinical, MRI, genomic, and placental tissue data from pregnant women with fetal CHD and healthy fetuses.",
-        "start": "2023-09-01",
-        "end": "2028-08-31",
+        "start": " 09-01-2023",
+        "end": " 08-31-2028",
         "project_id": [
           {
             "identifier": null,
