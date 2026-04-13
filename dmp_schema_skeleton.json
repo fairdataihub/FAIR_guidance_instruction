@@ -183,6 +183,17 @@
             ]
           }
         ],
+        "related_identifier": [
+          {
+            "identifier": "",
+            "type": "",
+            "relation_type": "",
+            "metadata_scheme": "",
+            "scheme_uri": "",
+            "scheme_type": "",
+            "resource_type": ""
+          }
+        ],
         "technical_resource": [
           {
             "name": "",
@@ -195,6 +206,15 @@
             ]
           }
         ]
+      }
+    ],
+    "Affiliation": [
+      {
+        "name": "",
+        "affiliation_id": {
+          "identifier": "",
+          "type": ""
+        }
       }
     ],
     "alternate_identifier": [
