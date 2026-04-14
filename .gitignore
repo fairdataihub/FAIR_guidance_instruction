@@ -26,7 +26,7 @@ faiss_index/
 # Data & Archives
 archive/
 main_archive/
-*.pdf
+
 
 # Secrets & Configs
 .env
@@ -52,5 +52,3 @@ document_portal.egg-info/
 *.csv
 
 # Ignore Word files
-*.doc
-*.docx
