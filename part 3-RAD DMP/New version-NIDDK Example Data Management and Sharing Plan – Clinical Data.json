@@ -5,7 +5,7 @@
       "identifier": "",
       "type": ""
     },
-    "title": "NIDDK Example Data Management and Sharing Plan – Clinical Data",
+    "title": "Data Managment and Sharing PLAN",
     "description": "",
     "created": "",
     "modified": "",
@@ -40,7 +40,7 @@
           "type": ""
         },
         "title": "Human renal dialysis clinical data",
-        "description": "Human renal dialysis clinical data, including demographic data, laboratory results, clinical observations, and clinical disposition data from 250 affected participants and 250 matched healthy controls.",
+        "description": "Human renal dialysis clinical data, including demographic data, laboratory results, clinical observations, and clinical disposition data ",
         "type": "clinical data",
         "issued": "",
         "language": "",

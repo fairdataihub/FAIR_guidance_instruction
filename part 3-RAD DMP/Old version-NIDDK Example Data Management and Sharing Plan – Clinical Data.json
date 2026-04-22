@@ -163,13 +163,13 @@
         ],
         "related_identifier": [
           {
-            "identifier": "Renal Failure",
-            "type": "journal",
-            "relation_type": "isDocumentedBy",
+            "identifier": "",
+            "type": "",
+            "relation_type": "",
             "metadata_scheme": "",
             "scheme_uri": "",
             "scheme_type": "",
-            "resource_type": "journal"
+            "resource_type": ""
           }
         ],
         "technical_resource": [
@@ -184,7 +184,7 @@
             "technical_resource_id": []
           },
           {
-            "name": "GitHub repository",
+            "name": "GitHub",
             "description": "Tagged repository where all code will be shared, together with a readme.md describing workflow, instructions, and parameter choices.",
             "technical_resource_id": []
           }
