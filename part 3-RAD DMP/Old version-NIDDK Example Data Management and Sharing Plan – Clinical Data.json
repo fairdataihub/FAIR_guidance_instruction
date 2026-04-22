@@ -52,7 +52,14 @@
         ]
       }
     ],
-    "cost": [],
+    "cost": [
+      {
+        "title": "",
+        "description": "",
+        "value": 0,
+        "currency_code": ""
+      }
+    ],
     "project": [
       {
         "title": "Clinical research study collecting renal dialysis data from multiple clinics",
@@ -60,7 +67,20 @@
         "start": "",
         "end": "",
         "project_id": [],
-        "funding": []
+        "funding": [
+          {
+            "funder_name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+            "funder_id": {
+              "identifier": "",
+              "type": ""
+            },
+            "grant_id": {
+              "identifier": "",
+              "type": ""
+            },
+            "funding_status": ""
+          }
+        ]
       }
     ],
     "dataset": [
@@ -85,9 +105,10 @@
         "is_reused": false,
         "personal_data": "yes",
         "sensitive_data": "yes",
-        "preservation_statement": "Participant-level clinical data described in the plan will be preserved through deposition in a controlled access public repository. Scientific data included in published manuscripts will be available at the time of publication; all other generated scientific data will be shared no later than the end of the award. The study data will be stored in the repository for at least 5 years.",
+        "preservation_statement": "The study data will be stored in the repository for at least 5 years. Scientific data will be shared as soon as possible. Scientific data included in published manuscripts will be available at the time of publication; all other generated scientific data will be shared no later than the end of the award.",
         "data_quality_assurance": [
-          "Participant age, sex, ethnicity, height, weight, socioeconomic status, and dialysis data will be collected using common data elements from the NIH CDE Repository."
+         "Participant age, sex, ethnicity, height, weight, socioeconomic status, and dialysis data will be collected using the common data elements (CDEs) from the National Institutes of Health (NIH) CDE Repository.",
+          "Compliance will be evaluated annually during the award period and progress towards the plan's DMS activities will be included in the annual Research Performance Progress Report submitted to the NIDDK Project Officer."
         ],
         "security_and_privacy": [
           {
@@ -97,6 +118,10 @@
           {
             "title": "Controlled access and reuse limits",
             "description": "Reuse will occur under controlled access through Vivli after approval by the Vivli independent review panel. Data use is limited to health, medical, or biomedical conditions and excludes the study of population origins or ancestry. IRB approval is required."
+          },
+          {
+            "title": "IRB Approval Required (IRB)",
+            "description": "The requesting institution's IRB or equivalent body must approve the requested use."
           }
         ],
         "rights": "Health/Medical/Biomedical use limitation; dataset can only be used for studying health, medical, or biomedical conditions and does not include the study of population origins or ancestry. IRB approval required for requested use.",
@@ -117,7 +142,7 @@
             "host": {
               "title": "Vivli",
               "url": "",
-              "description": "Generalist repository participating in the NIH Generalist Repository Ecosystem Initiative.",
+              "description": "A generalist repository that is participating in the NIH Generalist Repository Ecosystem Initiative.",
               "availability": "",
               "backup_frequency": "",
               "backup_type": "",
@@ -135,30 +160,29 @@
         ],
         "metadata": [
           {
-            "description": "The study protocol, data collection forms/case report forms, data dictionary, manual of operations, and a glossary of domain-specific terms will be submitted.",
+            "description": "Demographics common data element from NIH CDE Repository",
             "language": "",
-            "metadata_standard_id": [
-              {
-                "identifier": "Xyc4G1BHte",
-                "type": "NLM ID"
-              },
-              {
-                "identifier": "gaz3k9xh1da",
-                "type": "NLM ID"
-              },
-              {
-                "identifier": "lLbYoUaBc",
-                "type": "NLM ID"
-              },
-              {
-                "identifier": "7kpJeKE7P",
-                "type": "NLM ID"
-              },
-              {
-                "identifier": "71WP2zp2ox",
-                "type": "NLM ID"
-              }
-            ]
+            "metadata_standard_id": []
+          },
+          {
+            "description": "Standing Height common data element from NIH CDE Repository",
+            "language": "",
+            "metadata_standard_id": []
+          },
+          {
+            "description": "Weight common data element from NIH CDE Repository",
+            "language": "",
+            "metadata_standard_id": []
+          },
+          {
+            "description": "Socioeconomic Status common data element from NIH CDE Repository",
+            "language": "",
+            "metadata_standard_id": []
+          },
+          {
+            "description": "Dialysis common data element from NIH CDE Repository",
+            "language": "",
+            "metadata_standard_id": []
           }
         ],
         "related_identifier": [
@@ -174,7 +198,7 @@
         ],
         "technical_resource": [
           {
-            "name": "R",
+            "name": "custom R code",
             "description": "Clinical data will be analyzed with custom R code",
             "technical_resource_id": []
           },
@@ -184,8 +208,8 @@
             "technical_resource_id": []
           },
           {
-            "name": "GitHub",
-            "description": "Tagged repository where all code will be shared, together with a readme.md describing workflow, instructions, and parameter choices.",
+            "name": "GitHub repository",
+            "description": "All code will be shared via a tagged GitHub repository and a readme.md file for the project describing the workflow, relationship between code, instructions, and parameter choices for selected tools.",
             "technical_resource_id": []
           }
         ]
