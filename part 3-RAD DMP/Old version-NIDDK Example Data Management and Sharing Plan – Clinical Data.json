@@ -1,0 +1,197 @@
+{
+  "$schema": "./JSON-schema/1.2/maDMP-schema-1.2.json",
+  "dmp": {
+    "dmp_id": {
+      "identifier": "",
+      "type": ""
+    },
+    "title": "NIDDK Example Data Management and Sharing Plan – Clinical Data",
+    "description": "Sample Data Management and Sharing Plan for a proposal conducting clinical research with human participants involving renal dialysis data from multiple clinics.",
+    "created": "",
+    "modified": "",
+    "language": "",
+    "ethical_issues_exist": "yes",
+    "ethical_issues_description": "Human participant clinical data will be de-identified prior to repository submission. Data submitted to the repository will not include personally identifiable information such as names or addresses. Additional protections, such as managing HIPAA identifiers, will be used for de-identification or to provide a limited data set to minimize the risk of participant reidentification.",
+    "ethical_issues_report": "Informed consent limits reuse to health, medical, or biomedical conditions and excludes the study of population origins or ancestry. Controlled access and IRB approval are required for reuse.",
+    "contact": {
+      "name": "",
+      "mbox": "",
+      "contact_id": {
+        "identifier": "",
+        "type": ""
+      },
+      "affiliation": [
+        {
+          "name": "",
+          "affiliation_id": {
+            "identifier": "",
+            "type": ""
+          }
+        }
+      ]
+    },
+    "contributor": [
+      {
+        "name": "Dr. ABC",
+        "mbox": "",
+        "role": [
+          "principal investigator"
+        ],
+        "contributor_id": {
+          "identifier": "",
+          "type": ""
+        },
+        "affiliation": [
+          {
+            "name": "",
+            "affiliation_id": {
+              "identifier": "",
+              "type": ""
+            }
+          }
+        ]
+      }
+    ],
+    "cost": [],
+    "project": [
+      {
+        "title": "Clinical research study collecting renal dialysis data from multiple clinics",
+        "description": "This study will collect renal dialysis data from multiple clinics. Demographic, laboratory results, clinical observations, and clinical disposition will be acquired from 250 affected participants and 250 matched healthy controls.",
+        "start": "",
+        "end": "",
+        "project_id": [],
+        "funding": []
+      }
+    ],
+    "dataset": [
+      {
+        "dataset_id": {
+          "identifier": "",
+          "type": ""
+        },
+        "title": "Renal dialysis clinical study data",
+        "description": "Participant-level clinical data from a renal dialysis study, including demographic, laboratory results, clinical observations, and clinical disposition for 250 affected participants and 250 matched healthy controls.",
+        "type": "clinical data",
+        "issued": "",
+        "language": "",
+        "keyword": [
+          "renal dialysis",
+          "clinical data",
+          "demographics",
+          "laboratory results",
+          "clinical observations",
+          "clinical disposition"
+        ],
+        "is_reused": false,
+        "personal_data": "yes",
+        "sensitive_data": "yes",
+        "preservation_statement": "Participant-level clinical data described in the plan will be preserved through deposition in a controlled access public repository. Scientific data included in published manuscripts will be available at the time of publication; all other generated scientific data will be shared no later than the end of the award. The study data will be stored in the repository for at least 5 years.",
+        "data_quality_assurance": [
+          "Participant age, sex, ethnicity, height, weight, socioeconomic status, and dialysis data will be collected using common data elements from the NIH CDE Repository."
+        ],
+        "security_and_privacy": [
+          {
+            "title": "De-identification and privacy protections",
+            "description": "Identifiable data will be de-identified prior to repository submission. Data submitted to the repository will not include personally identifiable information such as names or addresses. Additional protections, such as management of HIPAA identifiers, will be used for de-identification or to provide a limited data set to minimize the risk of participant reidentification."
+          },
+          {
+            "title": "Controlled access and reuse limits",
+            "description": "Reuse will occur under controlled access through Vivli after approval by the Vivli independent review panel. Data use is limited to health, medical, or biomedical conditions and excludes the study of population origins or ancestry. IRB approval is required."
+          }
+        ],
+        "rights": "Health/Medical/Biomedical use limitation; dataset can only be used for studying health, medical, or biomedical conditions and does not include the study of population origins or ancestry. IRB approval required for requested use.",
+        "alternate_identifier": [],
+        "creator": [],
+        "distribution": [
+          {
+            "title": "",
+            "description": "",
+            "access_url": "",
+            "available_until": "",
+            "byte_size": 0,
+            "data_access": "controlled access",
+            "download_url": "",
+            "format": [],
+            "issued": "",
+            "license": [],
+            "host": {
+              "title": "Vivli",
+              "url": "",
+              "description": "Generalist repository participating in the NIH Generalist Repository Ecosystem Initiative.",
+              "availability": "",
+              "backup_frequency": "",
+              "backup_type": "",
+              "certified_with": "",
+              "geo_location": "",
+              "host_id": {
+                "identifier": "",
+                "type": ""
+              },
+              "pid_system": [],
+              "storage_type": "",
+              "support_versioning": ""
+            }
+          }
+        ],
+        "metadata": [
+          {
+            "description": "The study protocol, data collection forms/case report forms, data dictionary, manual of operations, and a glossary of domain-specific terms will be submitted.",
+            "language": "",
+            "metadata_standard_id": [
+              {
+                "identifier": "Xyc4G1BHte",
+                "type": "NLM ID"
+              },
+              {
+                "identifier": "gaz3k9xh1da",
+                "type": "NLM ID"
+              },
+              {
+                "identifier": "lLbYoUaBc",
+                "type": "NLM ID"
+              },
+              {
+                "identifier": "7kpJeKE7P",
+                "type": "NLM ID"
+              },
+              {
+                "identifier": "71WP2zp2ox",
+                "type": "NLM ID"
+              }
+            ]
+          }
+        ],
+        "related_identifier": [
+          {
+            "identifier": "Renal Failure",
+            "type": "journal",
+            "relation_type": "isDocumentedBy",
+            "metadata_scheme": "",
+            "scheme_uri": "",
+            "scheme_type": "",
+            "resource_type": "journal"
+          }
+        ],
+        "technical_resource": [
+          {
+            "name": "R",
+            "description": "Clinical data will be analyzed with custom R code",
+            "technical_resource_id": []
+          },
+          {
+            "name": "ggplot2",
+            "description": "Visualization package used for clinical data analysis.",
+            "technical_resource_id": []
+          },
+          {
+            "name": "GitHub repository",
+            "description": "Tagged repository where all code will be shared, together with a readme.md describing workflow, instructions, and parameter choices.",
+            "technical_resource_id": []
+          }
+        ]
+      }
+    ],
+    "alternate_identifier": [],
+    "related_identifier": []
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "./JSON-schema/1.2/maDMP-schema-1.2.json",
+  "dmp": {
+    "dmp_id": {
+      "identifier": "",
+      "type": ""
+    },
+    "title": "NIDDK Example Data Management and Sharing Plan – Clinical Data",
+    "description": "",
+    "created": "",
+    "modified": "",
+    "language": "",
+    "ethical_issues_exist": "yes",
+    "ethical_issues_description": "",
+    "ethical_issues_report": "",
+    "contact": {
+      "name": "",
+      "mbox": "",
+      "contact_id": {
+        "identifier": "",
+        "type": ""
+      },
+      "affiliation": [
+        {
+          "name": "",
+          "affiliation_id": {
+            "identifier": "",
+            "type": ""
+          }
+        }
+      ]
+    },
+    "contributor": [],
+    "cost": [],
+    "project": [],
+    "dataset": [
+      {
+        "dataset_id": {
+          "identifier": "",
+          "type": ""
+        },
+        "title": "Human renal dialysis clinical data",
+        "description": "Human renal dialysis clinical data, including demographic data, laboratory results, clinical observations, and clinical disposition data from 250 affected participants and 250 matched healthy controls.",
+        "type": "clinical data",
+        "issued": "",
+        "language": "",
+        "keyword": [],
+        "is_reused": false,
+        "personal_data": "",
+        "sensitive_data": "",
+        "preservation_statement": "",
+        "data_quality_assurance": [],
+        "security_and_privacy": [],
+        "rights": "",
+        "alternate_identifier": [],
+        "creator": [],
+        "distribution": [
+          {
+            "title": "",
+            "description": "",
+            "access_url": "",
+            "available_until": "",
+            "byte_size": 0,
+            "data_access": "",
+            "download_url": "",
+            "format": [],
+            "issued": "",
+            "license": [],
+            "host": {
+              "title": "Vivli",
+              "url": "",
+              "description": "",
+              "availability": "",
+              "backup_frequency": "",
+              "backup_type": "",
+              "certified_with": "",
+              "geo_location": "",
+              "host_id": {
+                "identifier": "",
+                "type": ""
+              },
+              "pid_system": [],
+              "storage_type": "",
+              "support_versioning": ""
+            }
+          }
+        ],
+        "metadata": [],
+        "related_identifier": [],
+        "technical_resource": []
+      }
+    ],
+    "alternate_identifier": [],
+    "related_identifier": []
+  }
+}
